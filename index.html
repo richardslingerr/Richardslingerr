@@ -1,12 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Richard Slingerr Global Solutions</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Richard Slingerr Global Solutions</title>
+<style>
+  body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f9f9f9; color:#333;}
+  header, footer { background:#004080; color:#fff; padding:20px 10%; text-align:center;}
+  h1, h2, h3 { margin-bottom: 0.5em; }
+  nav a { color: #eee; margin: 0 10px; text-decoration:none; font-weight:bold;}
+  nav a:hover { text-decoration: underline; }
+  main { max-width: 1000px; margin: 20px auto; padding: 0 20px;}
+  section { margin-bottom: 40px; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 5px #ccc;}
+  .services img, .investor img { max-width: 100%; height: auto; border-radius: 8px; margin-bottom: 10px;}
+  .service-item, .investor-item { margin-bottom: 20px; }
+  button { background: #0073e6; border: none; color: white; padding: 10px 15px; border-radius: 5px; cursor: pointer; }
+  button:hover { background: #005bb5; }
+  .donate, .merchandise { background:#e1f0ff; padding: 15px; border-radius: 8px; margin-top: 20px; }
+  form input[type=email], form input[type=text] { padding: 8px; width: 250px; margin-right: 10px; border: 1px solid #ccc; border-radius: 4px;}
+  footer small { display:block; margin-top: 10px; font-size: 0.8em; }
+  @media(max-width: 600px) {
+    main, header, footer { padding-left: 10px; padding-right: 10px; }
+    nav a { display: block; margin: 10px 0; }
+  }
+</style>
 </head>
 <body>
-  <h1>Coming Soon!</h1>
-  <p>Richard Slingerr Global Solutions — Empowering Senior Lives</p>
+
+<header>
+  <h1>Richard Slingerr Global Solutions</h1>
+  <nav>
+    <a href="#vision">Our Vision</a>
+    <a href="#services">Services</a>
+    <a href="#investors">Investor Opportunities</a>
+    <a href="#donate">Donate & Merchandise</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <section id="vision">
+    <h2>Empowering Senior Lives with Care</h2>
+    <p>Welcome to Richard Slingerr Global Solutions, where we prioritize mental health, family involvement, and personalized care for seniors. Join us in our mission to enhance the well-being of baby boomers and advocate for positive change in senior care.</p>
+  </section>
+
+  <section id="services" class="services">
+    <h2>Services</h2>
+
+    <div class="service-item">
+      <img src="1e15222b-321a-4879-a86d-4371a55e35d3.jpg" alt="Family Integration Program" />
+      <h3>Family Integration Program</h3>
+      <p>Create meaningful connections with our family care program.</p>
+      <p><strong>$80</strong></p>
+      <button onclick="alert('Booking Family Integration Program')">Book Now</button>
+    </div>
+
+    <div class="service-item">
+      <img src="6fd41edb-56b2-4524-a578-4055a8e0169a.jpg" alt="Physical Health Consultation" />
+      <h3>Physical Health Consultation</h3>
+      <p>A complete body wellness plan tailored for aging individuals. Duration: 1 hr 30 min</p>
+      <p><strong>$150</strong></p>
+      <button onclick="alert('Booking Physical Health Consultation')">Book Now</button>
+    </div>
+
+    <div class="service-item">
+      <img src="1e15222b-321a-4879-a86d-4371a55e35d3.jpg" alt="Mental Health Check" />
+      <h3>Mental Health Check</h3>
+      <p>Comprehensive mental wellness assessment for seniors. Duration: 1 hr</p>
+      <p><strong>$100</strong></p>
+      <button onclick="alert('Booking Mental Health Check')">Book Now</button>
+    </div>
+  </section>
+
+  <section id="investors" class="investor">
+    <h2>Investor & Caregiver Opportunities</h2>
+    <p>We offer turnkey business setups for investors wanting to enter the senior care industry. We travel to your preferred location and manage everything — from hiring staff to training.</p>
+    <p>We also offer courses with personal coaching calls from Thomas Salyer, author of <em>It’s a Baby Boomer Thing: Revolutionizing Senior Care</em>.</p>
+    <img src="ead79905-76a0-4a22-b6de-efbc64b08dc6.jpg" alt="Comfortable senior living room" />
+  </section>
+
+  <section id="donate">
+    <h2>Donate & Merchandise</h2>
+    <p>Support our mission for senior care reform by purchasing our merchandise or making a donation.</p>
+
+    <div class="merchandise">
+      <h3>Buy a T-Shirt</h3>
+      <p>Show your support with our exclusive t-shirts.</p>
+      <!-- Placeholder: Link or button to your Stripe/Shopify/PayPal merch page -->
+      <button onclick="alert('Redirect to merchandise store (placeholder)')">Buy T-Shirt</button>
+    </div>
+
+    <div class="donate">
+      <h3>Make a Donation</h3>
+      <p>Your generosity helps us fight for senior care reform.</p>
+      <!-- Placeholder: Stripe or PayPal donation button -->
+      <button onclick="alert('Redirect to donation page (placeholder)')">Donate Now</button>
+    </div>
+  </section>
+
+  <section id="blog">
+    <h2>Blog & Resources</h2>
+    <p>This section will feature insightful articles, product recommendations, and resources for senior care.</p>
+    <p><em>Blog integration coming soon.</em></p>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We are an innovative company designed for baby boomers — the largest population of seniors in history. Our mission is to help them age gracefully with dignity, avoiding the impersonal “warehousing” often found in large assisted living facilities.</p>
+    <p>With a staff-to-resident ratio of 3:1 compared to typical 20:1 in other homes, we provide unmatched personalized care. We ensure unrestricted family access and holistic mental and physical health support.</p>
+    <p>Join our fight for reform. Whether you want to become a caregiver, start your own senior care business, or simply support the cause, we are here to help.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Phone: 588-588-5897</p>
+    <p>Email: <a href="mailto:info@richardslingerr.com">info@richardslingerr.com</a></p>
+    <p>Address: 834 S Perry St Suite F, Castle Rock, CO 80104</p>
+
+    <h3>Subscribe to Our Newsletter</h3>
+    <form onsubmit="event.preventDefault(); alert('Subscribed with ' + document.getElementById('email').value)">
+      <input type="email" id="email" name="email" placeholder="Enter your email" required />
+      <button type="submit">Subscribe</button>
+    </form>
+  </section>
+
+</main>
+
+<footer>
+  <small>© 2025 Richard Slingerr Global Solutions. All rights reserved.</small>
+</footer>
+
 </body>
 </html>
